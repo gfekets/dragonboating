@@ -1,0 +1,35 @@
+.btn {
+  border: solid .2rem darkblue;
+  background-color: #D4DCDC;
+  margin-top: 2rem;
+}
+
+.btn:hover {
+  border: solid .4rem darkblue;
+  background-color: white;
+}
+
+.actual {
+  border: solid .2rem darkblue;
+  background-color: white;
+}
+
+body {
+  background-color: #D4DCDC;
+}
+.panel {
+  background-color: #D4DCDC;
+}
+
+.list-group-item {
+  border: solid .2rem darkblue;
+}
+
+h4 {
+  margin-top: 3rem;
+}
+
+p {
+  margin: .5rem 0 2rem;
+}
+
