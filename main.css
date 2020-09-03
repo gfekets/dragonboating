@@ -1,3 +1,7 @@
+h1 {
+  text-transform: uppercase
+}
+
 .btn {
   border: solid .2rem darkblue;
   background-color: #D4DCDC;
@@ -5,8 +9,13 @@
 }
 
 .btn:hover {
+  transition: all .3s ease-in-out;
   border: solid .4rem darkblue;
   background-color: white;
+}
+
+.top {
+  margin-top: 3rem;
 }
 
 .actual {
@@ -15,14 +24,11 @@
 }
 
 body {
-  background-color: #D4DCDC;
-}
-.panel {
-  background-color: #D4DCDC;
+  background-color: cadetblue;
 }
 
 .list-group-item {
-  border: solid .2rem darkblue;
+  border: solid .1rem darkblue;
 }
 
 h4 {
@@ -32,4 +38,32 @@ h4 {
 p {
   margin: .5rem 0 2rem;
 }
+
+.panel {
+  background-color: cadetblue;
+}
+
+.panel-header {
+  background-color: cadetblue;
+  margin-bottom: 1rem;
+}
+
+.well {
+  background-color: aliceblue;
+}
+
+.panel-body {
+  background-color: aliceblue;
+}
+
+.list-group-item {
+  background-color: #D4DCDC;
+  color: darkblue;
+}
+
+.list-group-item:hover {
+ transition: all .3s ease-in-out;
+ border: solid .2rem darkblue;
+ background-color: white;  
+} 
 
