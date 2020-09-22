@@ -67,6 +67,12 @@ p {
  background-color: white;  
 } 
 
-.cl-sm-12, .col-sm-6 {
-  text-align: center;
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: .5rem;
 }
+
+
+
