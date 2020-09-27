@@ -70,3 +70,7 @@ p {
 .cl-sm-12, .col-sm-6 {
   text-align: center;
 }
+
+.img-responsive {
+  margin-top: 2rem;
+}
