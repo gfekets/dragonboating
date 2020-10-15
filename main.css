@@ -9,7 +9,7 @@ h1 {
 }
 
 .btn:hover {
-  transition: all .3s ease-in-out;
+  transition: all .3s ease-out .02s;
   border: solid .4rem darkblue;
   background-color: white;
 }
@@ -32,11 +32,12 @@ body {
 }
 
 h4 {
-  margin-top: 3rem;
+  margin-top: 4rem;
 }
 
 p {
   margin: .5rem 0 2rem;
+  font-size: 1.6rem;
 }
 
 .panel {
@@ -46,10 +47,6 @@ p {
 .panel-header {
   background-color: cadetblue;
   margin-bottom: 1rem;
-}
-
-.well {
-  background-color: aliceblue;
 }
 
 .panel-body {
@@ -62,7 +59,7 @@ p {
 }
 
 .list-group-item:hover {
- transition: all .3s ease-in-out;
+ transition: all .3s ease-out .02s;
  border: solid .2rem darkblue;
  background-color: white;  
 } 
@@ -74,3 +71,36 @@ p {
 .img-responsive {
   margin-top: 2rem;
 }
+
+.quote {
+  background-color: aliceblue;
+  transition: all .3s ease-out .1s;
+}
+
+.quote:hover {
+  transform: scale(1.05) translate(2rem, -.5rem);
+  background-color: navajowhite;
+  color: brown;
+  box-shadow: 3px 6px 3px 0 grey;
+}
+
+.paint {
+  transition: all .3s ease .1s;
+}
+
+.paint:hover {
+  transform: scale(1.03) translate(1rem, -.5rem);
+  box-shadow: 3px 6px 3px 0 grey;
+}
+
+.fault:hover {
+animation: toandfro .8s;
+}
+
+@keyframes toandfro {
+  0%   {transform: rotate(0deg);}
+  25% {transform: rotate(5deg);}
+  50% {transform: rotate(-5deg);}
+  100% {transform: rotate(0deg);}
+  }
+  
