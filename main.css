@@ -74,7 +74,7 @@ p {
 
 .quote {
   background-color: aliceblue;
-  transition: all .3s ease-out .1s;
+  transition: all .2s ease-out .1s;
 }
 
 .quote:hover {
@@ -85,7 +85,7 @@ p {
 }
 
 .paint {
-  transition: all .3s ease .1s;
+  transition: all .2s ease .1s;
 }
 
 .paint:hover {
