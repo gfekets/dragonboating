@@ -1,5 +1,6 @@
-h1 {
-  text-transform: uppercase
+h2, h3, h4 {
+  font-family: 'Bitter', serif;
+  /*text-transform: uppercase;*/
 }
 
 .btn {
@@ -28,6 +29,7 @@ body {
 }
 
 .list-group-item {
+  font-family: 'Raleway', sans-serif;
   border: solid .1rem darkblue;
 }
 
@@ -36,6 +38,7 @@ h4 {
 }
 
 p {
+  font-family: 'Raleway', sans-serif;
   margin: .5rem 0 2rem;
   font-size: 1.6rem;
 }
@@ -113,7 +116,7 @@ animation: toandfro .8s;
 
 @keyframes jump {
   0% {transform: scale(1);}
-  50% {transform: scale(6) rotate(-20deg) translate(-4rem, -4rem);}
+  50% {transform: scale(4) rotate(-25deg) translate(-1rem, -4rem);}
   100% {transform: scale(1);}
   }
 
